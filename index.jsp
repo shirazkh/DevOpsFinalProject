@@ -35,7 +35,7 @@
         if (name != null && !name.trim().isEmpty()) {
     %>
         <div id="greeting-message" class="result">
-            Hello, <%= javax.servlet.jsp.Entity.escapeXml(name) %>! Data processed successfully.
+            Hello, <%= name %>! Data processed successfully.
         </div>
     <% 
         } 
